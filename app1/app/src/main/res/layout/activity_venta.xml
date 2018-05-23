@@ -59,7 +59,7 @@
 
     <LinearLayout
         android:layout_width="312dp"
-        android:layout_height="349dp"
+        android:layout_height="195dp"
         android:layout_marginBottom="68dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -68,7 +68,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.903">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -78,29 +79,29 @@
                 android:id="@+id/botonlistar"
                 android:layout_width="193dp"
                 android:layout_height="43dp"
-                android:layout_marginBottom="132dp"
+                android:layout_marginBottom="40dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:background="@color/colorPrimary"
+                android:background="@android:color/darker_gray"
                 android:text="Listar Inmuebles"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.592"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
                 android:id="@+id/botonregistrar"
-                android:layout_width="209dp"
-                android:layout_height="54dp"
-                android:layout_marginBottom="8dp"
+                android:layout_width="193dp"
+                android:layout_height="43dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:background="@color/colorPrimary"
+                android:layout_marginTop="48dp"
+                android:background="@android:color/darker_gray"
                 android:text="Registrar Inmueble"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@+id/botonlistar"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.597"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </android.support.constraint.ConstraintLayout>

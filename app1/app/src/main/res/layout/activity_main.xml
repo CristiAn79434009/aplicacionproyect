@@ -55,8 +55,8 @@
 
     <LinearLayout
         android:layout_width="342dp"
-        android:layout_height="418dp"
-        android:layout_marginBottom="16dp"
+        android:layout_height="238dp"
+        android:layout_marginBottom="52dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:orientation="vertical"
@@ -72,7 +72,7 @@
                 android:id="@+id/boton_carga_user"
                 android:layout_width="187dp"
                 android:layout_height="43dp"
-                android:layout_marginBottom="196dp"
+                android:layout_marginBottom="32dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:text="Usuario"
@@ -102,20 +102,17 @@
                 android:id="@+id/textView"
                 android:layout_width="211dp"
                 android:layout_height="37dp"
-                android:layout_marginBottom="40dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="44dp"
                 android:text="Cargar como:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@+id/boton_carga_agente"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.504"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0"
                 tools:ignore="MissingConstraints" />
 
         </android.support.constraint.ConstraintLayout>
