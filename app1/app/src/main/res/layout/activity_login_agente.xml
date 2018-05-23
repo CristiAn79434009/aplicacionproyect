@@ -12,9 +12,10 @@
         android:layout_height="64dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
@@ -57,7 +58,7 @@
 
     <LinearLayout
         android:layout_width="327dp"
-        android:layout_height="264dp"
+        android:layout_height="246dp"
         android:layout_marginBottom="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -75,37 +76,38 @@
                 android:id="@+id/textView4"
                 android:layout_width="99dp"
                 android:layout_height="29dp"
+                android:layout_marginBottom="16dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="16dp"
                 android:text="Usuario"
                 android:textAlignment="center"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/user_agente"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintStart_toStartOf="parent" />
 
             <EditText
                 android:id="@+id/user_agente"
                 android:layout_width="309dp"
-                android:layout_height="45dp"
+                android:layout_height="40dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginTop="64dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:textAppearance="@style/TextAppearance.AppCompat"
-                android:textSize="22sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="45dp" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="hola" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="102dp"
-                android:layout_height="24dp"
-                android:layout_marginBottom="12dp"
+                android:layout_height="28dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:text="Password"
@@ -121,7 +123,7 @@
                 android:id="@+id/password_agente"
                 android:layout_width="310dp"
                 android:layout_height="47dp"
-                android:layout_marginBottom="24dp"
+                android:layout_marginBottom="12dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:ems="10"
@@ -136,7 +138,7 @@
 
             <Button
                 android:id="@+id/boton_login_agente"
-                android:layout_width="113dp"
+                android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginBottom="16dp"
                 android:layout_marginEnd="8dp"

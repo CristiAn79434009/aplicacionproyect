@@ -94,7 +94,7 @@
 
             <Button
                 android:id="@+id/botonventa"
-                android:layout_width="131dp"
+                android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
@@ -110,7 +110,7 @@
 
             <Button
                 android:id="@+id/botonalquiler"
-                android:layout_width="131dp"
+                android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_marginBottom="40dp"
                 android:layout_marginEnd="8dp"

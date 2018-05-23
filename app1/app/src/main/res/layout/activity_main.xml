@@ -70,7 +70,7 @@
 
             <Button
                 android:id="@+id/boton_carga_user"
-                android:layout_width="187dp"
+                android:layout_width="0dp"
                 android:layout_height="43dp"
                 android:layout_marginBottom="32dp"
                 android:layout_marginEnd="8dp"
@@ -85,7 +85,7 @@
 
             <Button
                 android:id="@+id/boton_carga_agente"
-                android:layout_width="187dp"
+                android:layout_width="0dp"
                 android:layout_height="43dp"
                 android:layout_marginBottom="28dp"
                 android:layout_marginEnd="8dp"
