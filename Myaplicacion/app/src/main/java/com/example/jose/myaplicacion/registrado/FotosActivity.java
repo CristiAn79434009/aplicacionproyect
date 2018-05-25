@@ -119,13 +119,6 @@ public class FotosActivity extends AppCompatActivity {
 
 
     if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.N)
-        Intent intent1 = intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(imagen));
+          Intent intent1 = intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(imagen));
     }
 }
-
-
-
-
-
-
-h

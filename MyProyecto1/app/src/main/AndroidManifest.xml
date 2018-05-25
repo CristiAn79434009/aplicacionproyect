@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jose.myaplicacion">
+    package="com.example.jose.myproyecto1">
 
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CAMERA" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -22,10 +25,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".registrado.RegistroActivity" />
-        <activity android:name=".registrado.FotosActivity" />
-        <activity android:name=".verPublicidad.PublicidadActivity"></activity>
-
+        >
+        <activity android:name=".RegistrarVentaActivity" />
+        <activity android:name=".CargarImagenActivity" />
+        <activity android:name=".ListDataSource.CustomAdapter" />
+        <activity android:name=".ListDataSource.ItemList" />
+        <activity android:name=".PubliciadadesActivity"></activity>
     </application>
 
 </manifest>
