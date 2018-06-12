@@ -68,20 +68,22 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:fillViewport="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ver "
-                    android:textSize="15dp"
+                    android:text="VER"
                     android:textAlignment="center"
-                    android:textColor="@color/colorPrimary"
-                    android:textStyle="bold" />
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="25dp"
+                    android:textStyle="italic" />
 
                 <Button
                     android:id="@+id/publicados"
@@ -91,65 +93,67 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
+                    android:onClick="irAPublicidad"
                     android:text="PUBLICIDADES"
                     android:textColor="@color/colorPrimary"
-                    android:textStyle="bold"
-                    android:onClick="irAPublicidad"
-                    />
+                    android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Opciones "
-                    android:textSize="25dp"
+                    android:text="PONER EN VENTA"
                     android:textAlignment="center"
-                    android:textColor="@color/colorPrimary"
-                    android:textStyle="bold" />
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="25dp"
+                    android:textStyle="italic" />
+
                 <Button
                     android:id="@+id/registro_casa"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    android:layout_height="45dp"
                     android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
+                    android:onClick="CasaAlquiler"
                     android:text="CASA"
                     android:textColor="@color/colorPrimary"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:onClick="CasaAlquiler"/>
+                    app:layout_constraintStart_toStartOf="parent" />
+
                 <Button
                     android:id="@+id/registro_departamneto"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    android:layout_height="45dp"
                     android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
+                    android:onClick="CasaAlquiler"
                     android:text="DEPARTAMENTO"
                     android:textColor="@color/colorPrimary"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:onClick="CasaAlquiler"/>
+                    app:layout_constraintStart_toStartOf="parent" />
 
-                <Button
+                 <Button
                     android:id="@+id/registro_condominio"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    android:layout_height="45dp"
                     android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
+                    android:onClick="CasaAlquiler"
                     android:text="CONDOMINIO"
                     android:textColor="@color/colorPrimary"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:onClick="CasaAlquiler"/>
+                    app:layout_constraintStart_toStartOf="parent" />
 
 
             </LinearLayout>

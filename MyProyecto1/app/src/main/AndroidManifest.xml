@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.jose.myproyecto1">
 
-    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -28,9 +32,16 @@
         >
         <activity android:name=".RegistrarVentaActivity" />
         <activity android:name=".CargarImagenActivity" />
-        <activity android:name=".ListDataSource.CustomAdapter" />
-        <activity android:name=".ListDataSource.ItemList" />
-        <activity android:name=".PubliciadadesActivity"></activity>
+        <activity
+            android:name=".Listar"
+            android:label="@string/title_activity_listar"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

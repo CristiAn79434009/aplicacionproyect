@@ -14,8 +14,18 @@
         android:layout_marginTop="8dp"
         android:text="tomar foto"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/cargarImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="media"
+        android:onClick="onclick"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="tommarfoto"/>
+        />
 
     <ImageView
         android:id="@+id/setPicture"
@@ -40,9 +50,9 @@
         android:layout_marginTop="8dp"
         android:text="SUBIR"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></Button>
 
-        app:layout_constraintVertical_bias="1.0" />
+
 
     <Button
         android:id="@+id/button2"
@@ -53,9 +63,9 @@
         android:layout_marginTop="8dp"
         android:text="CONTINUE"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></Button>
 
-        app:layout_constraintVertical_bias="1.0" />
+
 
 
 </android.support.constraint.ConstraintLayout>

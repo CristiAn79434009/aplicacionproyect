@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     public void irAPublicidad(View view) {
         switch (view.getId()){
             case R.id.publicados:
-                Intent misIntent = new Intent(MainActivity.this, PubliciadadesActivity.class);
+                Intent misIntent = new Intent(MainActivity.this, Listar.class);
                 startActivity(misIntent);
                 break;
         }
