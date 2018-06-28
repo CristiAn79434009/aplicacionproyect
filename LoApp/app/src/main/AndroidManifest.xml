@@ -23,6 +23,7 @@
             android:label="@string/title_activity_login_result"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".InicioActivity" />
+        <activity android:name=".FormularioActivity"></activity>
     </application>
 
 </manifest>
