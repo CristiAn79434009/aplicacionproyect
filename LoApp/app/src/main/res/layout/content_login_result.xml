@@ -10,13 +10,11 @@
 
     <ImageView
         android:id="@+id/avatar"
-        android:layout_width="164dp"
+        android:layout_width="162dp"
         android:layout_height="165dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/email"
+        android:layout_marginTop="124dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -28,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/avatar" />
@@ -39,10 +37,11 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="8dp"
-        android:text="Button"
+        android:text="Siguiene"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="312dp" />
+        tools:layout_editor_absoluteY="403dp" />
 
     <TextView
         android:id="@+id/name"
@@ -54,5 +53,6 @@
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintVertical_bias="0.763" />
 </android.support.constraint.ConstraintLayout>
