@@ -1,0 +1,7 @@
+---reflejado
+
+<script>alert(pagina vulnerable a ataque XSS");</script>
+
+------------------------------http://www.hotelclaudia.com.bo/
+--->persistente relajdo (injecta codigo guardado en la base de datos)
+-->><h1><marquee>hola</marquee></h1>
