@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">LoApp</string>
-    <string name="error_login">El sistema no pudo  conectarse a google play service intente de nuevo mastarde</string>
-    <string name="title_activity_login_result">LoginResult</string>
-</resources>
